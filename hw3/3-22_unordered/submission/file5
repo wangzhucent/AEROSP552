@@ -1,0 +1,15 @@
+-- alphatbet
+a b
+-- states
+11 22 33
+-- initial
+11
+-- final
+11 33 43
+-- transitions
+11 -- a --> 22
+11 -- b --> 11
+22 -- a --> 33
+22 -- b --> 22
+33 -- a --> 33
+33 -- b --> 33
